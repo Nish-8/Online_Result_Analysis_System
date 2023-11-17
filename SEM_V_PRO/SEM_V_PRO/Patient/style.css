@@ -1,0 +1,47 @@
+body {
+  background-image: url("../UiImages/BG.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 6rem;
+  box-shadow: 0rem 0.48rem 0.96rem 0rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+}
+
+.dropdown .dropdown-menu a {
+  color: black;
+  padding: 0.72rem 0.96rem;
+  text-decoration: none;
+  display: block;
+
+}
+
+.nav a {
+  font-size: large;
+  color: black;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ebe6f4
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
