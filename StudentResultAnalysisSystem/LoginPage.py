@@ -14,13 +14,13 @@ import AdminHome
 # database components
 hostnamedb = "localhost"
 databasedb = "ResultAnalysis"
-usernamedb = "postgres"
-pwddb = "5302"
-port_iddb = 5432
+usernamedb = ""
+pwddb = ""
+port_iddb = 
 
 
 class Login(tk.Tk):
-    url = "www.pce.ac.in"
+    url = ""
 
     def __init__(self, url="www.pce.ac.in"):
         super().__init__()
