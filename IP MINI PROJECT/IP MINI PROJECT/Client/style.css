@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+   
+ }
+ 
+
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align:center;
+}
+
+li a:hover{
+    background-color: #8442f5;
+    border-radius: 20px;
+   
+  } 
+ 
+  
+.dropdown-menu{
+    min-width:2rem;
+}
+
